@@ -21,9 +21,9 @@ body {
     background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
 }
 #player {
-    padding-top: 80px;
-    padding-left: 14px;
-    padding-right: 20%;
+    margin-top: 80px;
+    margin-left: 14px;
+    margin-right: 20%;
 }
 .table {
     float: left;
@@ -42,9 +42,9 @@ body {
     font-size: xx-large;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-#vd {
+.row {
     border: 3px solid black;
-    padding: 20px 10px;
+    padding: 5px 10px;
     margin: 0;
     word-wrap: normal;
     background: #606c88;  /* fallback for old browsers */
@@ -54,8 +54,10 @@ body {
     text-align: left;
     border-radius: 6px;
 }
-#vd:hover {
-    background-color: rgba(255, 255, 255, 0.651);
+.row:hover {
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 img {
     width: 20px;
@@ -68,4 +70,9 @@ img {
     height: 20px;
     padding-bottom: 30px;
     padding-top: 2px;
+}
+.active {
+    background: #f953c6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #b91d73, #f953c6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #b91d73, #f953c6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
