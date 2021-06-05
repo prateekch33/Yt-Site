@@ -20,11 +20,7 @@ body {
     background-color: #8EC5FC;
     background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
 }
-#player {
-    margin-top: 80px;
-    margin-left: 14px;
-    margin-right: 20%;
-}
+
 .table {
     float: left;
     margin-top: -485px;
