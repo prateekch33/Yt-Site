@@ -15,14 +15,12 @@ body {
     color: white;
 }
 .playlist {
-    margin-top: 64px;
-    height: 640px;
+    margin-top: 64px;    
     background-color: #8EC5FC;
     background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
 }
 
-.table {
-    float: left;
+.table {    
     margin-top: -485px;
     margin-left: 67%;
     border: 1.6px solid grey;
