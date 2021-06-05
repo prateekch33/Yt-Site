@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+}
+.header {
+    background-color: #4e7de9;
+    height: 64px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#page-logo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+    color: white;
+}
+.playlist {
+    margin-top: 64px;
+    height: 640px;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+#player {
+    padding-top: 80px;
+    padding-left: 14px;
+    padding-right: 20%;
+}
+.table {
+    float: left;
+    margin-top: -485px;
+    margin-left: 67%;
+    border: 1.6px solid grey;
+    padding: 8px 20px;
+    width: 28%;
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    border-radius: 6px;
+}
+#playlist-header {
+    text-align: center;
+    text-decoration: underline;
+    font-size: xx-large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#vd {
+    border: 3px solid black;
+    padding: 20px 10px;
+    margin: 0;
+    word-wrap: normal;
+    background: #606c88;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: aliceblue;
+    text-align: left;
+    border-radius: 6px;
+}
+#vd:hover {
+    background-color: rgba(255, 255, 255, 0.651);
+}
+img {
+    width: 20px;
+    height: 10px;
+}
+.footer {
+    text-align: center;
+    background: purple;
+    color: white;
+    height: 20px;
+    padding-bottom: 30px;
+    padding-top: 2px;
+}
